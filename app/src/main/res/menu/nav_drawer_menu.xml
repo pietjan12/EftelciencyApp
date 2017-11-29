@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/attracties"
+            android:icon="@android:drawable/ic_media_next"
+            android:title="Attracties" />
+        <item
+            android:id="@+id/eten"
+            android:icon="@android:drawable/ic_menu_compass"
+            android:title="Eten" />
+        <item
+            android:id="@+id/nav_third_layout"
+            android:icon="@android:drawable/ic_menu_day"
+            android:title="" />
+    </group>
+
+    <item android:title="Communicatie">
+        <menu>
+            <item
+                android:id="@+id/nvt"
+                android:icon="@android:drawable/ic_menu_day"
+                android:title="NVT" />
+            <item
+                android:id="@+id/contact"
+                android:icon="@android:drawable/ic_menu_compass"
+                android:title="Contact" />
+        </menu>
+    </item>
+
+</menu>
